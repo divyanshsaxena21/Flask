@@ -8,11 +8,11 @@ def key():
     return secret_key
 app.secret_key=key()
 
-# MySQL configurations
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'kanpur'
-app.config['MYSQL_DB'] = 'mooncode'
+# # MySQL configurations
+# app.config['MYSQL_HOST'] = 'localhost'
+# app.config['MYSQL_USER'] = 'root'
+# app.config['MYSQL_PASSWORD'] = 'kanpur'
+# app.config['MYSQL_DB'] = 'mooncode'
 
 mysql = MySQL(app)
 
